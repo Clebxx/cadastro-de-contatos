@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerenciador de Contatos</h1>
+    <div id="contact-form">
+        <h2>Adicionar Contato</h2>
+        <input type="text" id="name" placeholder="Nome">
+        <input type="text" id="phone" placeholder="Telefone">
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="addContact()">Adicionar</button>
+    </div>
+    <div id="contact-list">
+        <h2>Lista de Contatos</h2>
+        <ul id="contacts">
+            <!-- A lista de contatos será exibida aqui -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
